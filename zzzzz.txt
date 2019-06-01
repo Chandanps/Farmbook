@@ -1,0 +1,4 @@
+font name-times new roman
+font size-chapter name-16 ,subheading -14,text-12
+line spacing - 1.5 line spacing
+left right justification

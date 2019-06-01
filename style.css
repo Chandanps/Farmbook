@@ -1,0 +1,19 @@
+img:hover{ opacity: 0.67;transition: 0.35s;}
+body{
+    background-image: url(bg.jpg);
+    background-repeat:no-repeat;
+    background-size:100vw 100vh;
+    background-attachment: fixed;
+}
+#black{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color:black;
+    box-shadow: 0px 8px 16px 0px rgba(38, 226, 79, 0.7);
+}
+#black:hover{
+    background-color:#101010;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}

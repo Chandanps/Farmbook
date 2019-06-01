@@ -1,0 +1,113 @@
+body
+{
+    background-color: black;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#login
+{
+    width: 300px;
+    height: 430px;
+    background: rgba(63, 57, 57, 0.205);    
+    color: rgb(160, 154, 154);
+    padding: 70px 30px;
+}
+#createAccount
+{
+    position: relative;
+    top: 50px;
+    left: 170px;
+    background:  rgba(63, 57, 57, 0.205); 
+    color: rgb(160, 154, 154);
+    width: 300px;
+    height: 100%;
+    padding: 30px 30px;
+}
+#calculator
+{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    right:30px;
+    background:  rgba(63, 57, 57, 0.205); 
+    color: rgb(160, 154, 154);
+    width: 300px;
+    height: 120%;
+    padding: 30px 30px;
+}
+#zzz
+{
+	position: relative;
+    top: 50px;
+    background:  rgba(63, 57, 57, 0.205); 
+    color: rgb(160, 154, 154);
+    width: 80%;
+    height: 80%;
+    padding: 30px 30px;
+}
+#pagename{
+	background-color:black;
+	color:rgba(94, 84, 84, 0.644);
+}
+#pagename:hover
+{
+	background-color: black;
+	
+}
+a:link { color: #000000; text-decoration: none}
+
+#zz
+{
+	background-color:black;
+	color: white;
+}
+#admin
+{
+	position: relative;
+    top: 50px;
+    background:  rgba(63, 57, 57, 0.205); 
+    color: rgb(160, 154, 154);
+    
+    padding: 30px 30px;
+}
+table, th, td {
+    border: 1px solid white;
+	margin:30px;background-color: rgba(63, 57, 57, 0.205);
+text-align:center;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+color:white;
+}
+#price
+{
+    position: relative;
+    top: 35px;
+    left: 30px;
+    right:30px;
+    background:  rgba(63, 57, 57, 0.205); 
+    color: rgb(160, 154, 154);
+    width: relative;
+    height: relative;
+    padding: 30px 30px;
+}
+#black{
+    display: block;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: rgba(63, 57, 57, 0.205);
+}
+#black:hover{
+    background-color:#000000;box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.7);
+}
+#about
+{
+	 position: relative;
+    top: 50px;
+    background:  rgba(63, 57, 57, 0.205); 
+    color: rgb(160, 154, 154);
+    width: 100%;
+    height: 440px;
+    padding: 30px 30px;
+}

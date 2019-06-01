@@ -1,0 +1,12 @@
+crop insurance
+weather forecast for the next few days
+market prices of things required for agriculture (fertilzers,seeds,machinery,etc)
+knowledge source (knowledge about seeds and weather n soil in which they are grown,amount of water required, nutrients required,etc)
+use app in various languages
+market prices (with our aid and without our aid)
+a blog of stories 
+a blog of news
+a blog for offers n deals
+organic farming(how? n stuff)
+calculate costs, expected profit (with graphs) , etc [statistics n suggested strategies]
+take an image as input(list of items and quantity) , and convert it into data n store it and make order

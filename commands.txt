@@ -1,0 +1,67 @@
+Its not case sensitive. Type however you want.
+> create database db1;
+>use db1;
+>connect;
+>create new table <tableName1>
+ (
+ varName datatype(size) not null default='a';
+ blabla datatype(size) primary key;
+ ...
+ );
+>create new table <tableName2>
+ (
+ blablabla datatype(size) references <tablename1>(<attribute>),
+ );
+note: the datatype of both the attributes must be the same.
+>insert into <tablename> values('&varname',....); //single quote for strings only. Its not needed for numbers.
+>alter table <tablename> add <new attribute name/new col name> <data type>;
+>alter table <tablename> drop <attribute> cascade;
+>alter table <tablename> alter <attribute> drop <constraint>;
+>alter table <tablename> modify/alter <attribute> set default='value';   //single quote for strings only. Its not needed for numbers.
+>alter table <tablename> add primary key (<attribute>);
+>ALTER TABLE table_name CHANGE old_column_name new_column_name new_column_definition;
+ here 'new_cloumn_definition' can have 'datatype not null'
+>describe/desc <table_name>
+>select * from <tableName>;
+>delete from <tablename> where col_name=value;
+>truncate table <tablename>;
+>drop table <tablename>;
+>commit;    //to save
+>
+------------------------------------------------------------------------------------
+shell> mysql -h host -u user -p
+Enter password: ********
+Welcome to the MySQL monitor.  Commands end with ; or \g.
+Your MySQL connection id is 25338 to server version: 8.0.14-standard
+
+Type 'help;' or '\h' for help. Type '\c' to clear the buffer.
+
+mysql>
+----------------------------------------------------------------------------
+to kmnow the current username- select current_user();
+
+---------------------------------------------------------------------------
+usr-root
+pswd-Chandan@1998
+-----------------------------------------------------------------------
+MySQL retrieves and displays DATE values in 'YYYY-MM-DD' format.
+----------------------------------------------------------------
+for triggers---
+mysql> delimiter $$
+mysql> create trigger del
+    -> after delete on farmer
+    -> for each row
+    -> begin
+    -> insert into deletedusers values(old.name,old.phone)
+    -> ; end$$
+Query OK, 0 rows affected (0.18 sec)
+---------------------------------------------------------
+stored procedure---
+mysql> delimiter //
+mysql> create procedure selectFarmer ()
+    -> begin
+    -> select * from farmer;
+    -> end//
+Query OK, 0 rows affected (0.22 sec)
+mysql> call selectFarmer //
+------------------------------------------------------------------------------

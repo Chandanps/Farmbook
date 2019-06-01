@@ -1,0 +1,14 @@
+body
+{
+    background-color: rgba(41, 37, 37, 0.678);
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+header
+{
+	background-color:rgba(0, 0, 0, 0.795);
+	color:rgb(160, 154, 154);
+	font-size:40;
+}
+
